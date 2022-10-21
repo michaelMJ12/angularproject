@@ -1,0 +1,56 @@
+<h1>Order table</h1>
+
+<hr>
+
+<table id="users">
+     <tr> 
+          <th>Id</th>
+          <th>Fruit</th>
+          <th>Mineral</th>
+          <th>Suger Level</th>
+          <th>Acidic Level</th>
+          <th>Alkalide Level</th>
+     </tr>
+
+ <tr *ngFor="let user of users" >
+          <td >{{user.id}}</td>
+          <td>{{user.fruit}}</td>
+          <td>{{user.mineral}}</td>
+          <td>{{user.SugarLevel}}</td>
+          <td>{{user.AcidicLevel}}</td>
+          <td>{{user.AlkalidLevel}}</td>
+     </tr>
+</table> 
+
+
+
+
+
+ <hr>
+
+<!-- <div >
+    <form #postdata='ngForm' action="" method="post">
+        <input type="text" ngModel placeholder="fruit">
+        <input type="text" ngModel placeholder="mineral">
+        <input type="text" ngModel placeholder="Sugar Level">
+        <input type="text" ngModel placeholder="Acidic Level">
+        <input type="text" ngModel placeholder="Alkalid Level">
+        <button (click)='submit(postdata.value)'>ADD</button>
+    </form>
+</div>   -->
+<app-header></app-header>
+
+ <!-- <div >
+    <form [formGroup]='FormData'  (ngSubmit)='SaveData()'>
+        <input type="text"  placeholder="fruit" FormControlName='fruit'>
+        <input type="text"  placeholder="mineral"  FormControlName='mineral'>
+        <input type="text"  placeholder="Sugar Level"  FormControlName=' SugarLevel'>
+        <input type="text"  placeholder="Acidic Level"  FormControlName='AcidicLevel' >
+        <input type="text"  placeholder="Alkalide Level"  FormControlName='AlkalidLevel'>
+        <button type="submit">ADD</button>
+    </form>
+</div>    -->
+
+
+
+

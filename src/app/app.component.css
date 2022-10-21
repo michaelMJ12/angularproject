@@ -1,0 +1,39 @@
+h1
+{
+     text-align: center;
+     color: blue;
+}
+
+#users
+{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+}
+
+#users td ,#users th
+{
+     border: 1px solid white;
+     padding: 8px;
+
+}
+
+#users tr
+{
+     background-color: lightslategrey;
+}
+
+#users tr:hover
+{
+     background-color: maroon;
+}
+
+#users th 
+{
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: darkslategray;
+     color: floralwhite;
+}
+

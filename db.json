@@ -1,0 +1,68 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "fruit": "orange fruit",
+      "mineral": "vitamin C",
+      "SugarLevel": "low",
+      "AcidicLevel": "low",
+      "AlkalidLevel": "low"
+    },
+    {
+      "id": 2,
+      "fruit": "app fruit",
+      "mineral": "vitamin A",
+      "SugarLevel": "normal",
+      "AcidicLevel": "low",
+      "AlkalidLevel": "low"
+    },
+    {
+      "id": 3,
+      "fruit": "mango fruit",
+      "mineral": "vitamin B",
+      "SugarLevel": "normal",
+      "AcidicLevel": "medium",
+      "AlkalidLevel": "low"
+    },
+    {
+      "id": 4,
+      "fruit": "pawpaw fruit",
+      "mineral": "zinc, iron",
+      "SugarLevel": "high",
+      "AcidicLevel": "low",
+      "AlkalidLevel": "low"
+    },
+    {
+      "id": 5,
+      "fruit": "pineapple fruit",
+      "mineral": "vitamin C",
+      "SugarLevel": "high",
+      "AcidicLevel": "medium",
+      "AlkalidLevel": "low"
+    },
+    {
+      "id": 6,
+      "fruit": "banana fruit",
+      "mineral": "vitamin B6",
+      "SugarLevel": "high",
+      "AcidicLevel": "low",
+      "AlkalidLevel": "low"
+    },
+    {
+      "fruit": "orange fruit",
+      "mineral": "vitamin C",
+      "SugarLevel": "low",
+      "AcidicLevel": "low",
+      "AlkalidLevel": "low",
+      "id": 7
+    },
+    {
+      "fruit": "watermeloon",
+      "mineral": "vitamin B",
+      "SugarLevel": "high",
+      "AcidicLevel": "low",
+      "AlkalidLevel": "low",
+      "id": 8
+    }
+  ]
+}
